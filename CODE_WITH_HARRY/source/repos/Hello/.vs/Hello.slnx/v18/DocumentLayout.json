@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\CODE_WITH_HARRY\\source\\repos\\Hello\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63F2A61D-91E2-4724-9744-3EBF6FB896B4}|Hello\\Hello.csproj|d:\\coding language\\c#_language\\code_with_harry\\source\\repos\\hello\\hello\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F2A61D-91E2-4724-9744-3EBF6FB896B4}|Hello\\Hello.csproj|solutionrelative:hello\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F2A61D-91E2-4724-9744-3EBF6FB896B4}|Hello\\Hello.csproj|D:\\CODING LANGUAGE\\C#_LANGUAGE\\CODE_WITH_HARRY\\source\\repos\\Hello\\hello\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F2A61D-91E2-4724-9744-3EBF6FB896B4}|Hello\\Hello.csproj|solutionrelative:hello\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\CODE_WITH_HARRY\\source\\repos\\Hello\\Hello\\Player.cs",
+              "RelativeDocumentMoniker": "Hello\\Player.cs",
+              "ToolTip": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\CODE_WITH_HARRY\\source\\repos\\Hello\\Hello\\Player.cs",
+              "RelativeToolTip": "Hello\\Player.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:16:14.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\CODE_WITH_HARRY\\source\\repos\\Hello\\Hello\\Program.cs",
+              "RelativeDocumentMoniker": "Hello\\Program.cs",
+              "ToolTip": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\CODE_WITH_HARRY\\source\\repos\\Hello\\Hello\\Program.cs",
+              "RelativeToolTip": "Hello\\Program.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAAN0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T06:54:26.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
