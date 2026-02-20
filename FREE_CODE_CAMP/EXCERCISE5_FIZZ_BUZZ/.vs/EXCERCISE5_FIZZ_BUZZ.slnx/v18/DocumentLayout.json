@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\FREE_CODE_CAMP\\EXCERCISE5_FIZZ_BUZZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17B2C58B-DA07-4365-86F4-0191707A77B0}|EXCERCISE5_FIZZ_BUZZ\\EXCERCISE5_FIZZ_BUZZ.csproj|d:\\coding language\\c#_language\\free_code_camp\\excercise5_fizz_buzz\\excercise5_fizz_buzz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17B2C58B-DA07-4365-86F4-0191707A77B0}|EXCERCISE5_FIZZ_BUZZ\\EXCERCISE5_FIZZ_BUZZ.csproj|solutionrelative:excercise5_fizz_buzz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\FREE_CODE_CAMP\\EXCERCISE5_FIZZ_BUZZ\\EXCERCISE5_FIZZ_BUZZ\\Program.cs",
+              "RelativeDocumentMoniker": "EXCERCISE5_FIZZ_BUZZ\\Program.cs",
+              "ToolTip": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\FREE_CODE_CAMP\\EXCERCISE5_FIZZ_BUZZ\\EXCERCISE5_FIZZ_BUZZ\\Program.cs",
+              "RelativeToolTip": "EXCERCISE5_FIZZ_BUZZ\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAlwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:15:56.715Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
