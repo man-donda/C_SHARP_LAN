@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\PRECTICE\\FREE_CODE_CAMP\\EXCERCISE9_ARRAY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D075835-7093-4B8F-BD01-A826B1BC04B3}|EXCERCISE9_ARRAY\\EXCERCISE9_ARRAY.csproj|d:\\coding language\\c#_language\\prectice\\free_code_camp\\excercise9_array\\excercise9_array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D075835-7093-4B8F-BD01-A826B1BC04B3}|EXCERCISE9_ARRAY\\EXCERCISE9_ARRAY.csproj|solutionrelative:excercise9_array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\PRECTICE\\FREE_CODE_CAMP\\EXCERCISE9_ARRAY\\EXCERCISE9_ARRAY\\Program.cs",
+              "RelativeDocumentMoniker": "EXCERCISE9_ARRAY\\Program.cs",
+              "ToolTip": "D:\\CODING LANGUAGE\\C#_LANGUAGE\\PRECTICE\\FREE_CODE_CAMP\\EXCERCISE9_ARRAY\\EXCERCISE9_ARRAY\\Program.cs",
+              "RelativeToolTip": "EXCERCISE9_ARRAY\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowCsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:46:42.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
