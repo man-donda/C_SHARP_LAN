@@ -70,6 +70,16 @@ namespace EXCERCISE16_DICTIONARY
             {
                 Console.WriteLine($"{item.Key} - {item.Value}");
             }
+
+            Console.WriteLine();
+            names.Remove("Maths");
+
+            foreach (var item in names)
+            {
+                Console.WriteLine($"{item.Key} - {item.Value}");
+            }
+
+            Console.ReadLine();
         }
     }
 }
