@@ -17,8 +17,7 @@ namespace EXCERCISE15_LISTS
                 Console.WriteLine("Enter number: ");
                 listNumbers.Add(Convert.ToInt32(Console.ReadLine()));
             } 
-
-              
+                          
             Console.Write("Lists: ");
             for (int i = 0; i < listNumbers.Count; i++)
             {
@@ -30,7 +29,7 @@ namespace EXCERCISE15_LISTS
             {
                 Console.Write($"{items} ");
             }
-            
+            Console.ReadLine();
         }
     }
 }
