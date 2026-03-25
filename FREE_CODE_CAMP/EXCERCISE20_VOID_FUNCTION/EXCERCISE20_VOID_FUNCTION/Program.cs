@@ -11,7 +11,7 @@ namespace EXCERCISE20_VOID_FUNCTION
         static void Main(string[] args)
         {
             welcomeMessage();
-            createAndPrintArray();
+            createAndPrintArray(); 
         }
 
         static void createAndPrintArray()
