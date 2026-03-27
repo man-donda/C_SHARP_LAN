@@ -24,15 +24,19 @@ namespace EXCERCISE25_OUT_PARAMETER
             Console.WriteLine(shoppingList.IndexOf("milk"));
             //Console.WriteLine(findInList("coffee", shoppingList, out int index));
             //Console.WriteLine(" "+ index);
+            Console.Write("Enter an item to search: ");
+            string search = Convert.ToString(Console.ReadLine());
 
-            if(findInList("milk", shoppingList, out int index))
+            if(findInList(search, shoppingList, out int index))
             {
-                Console.WriteLine($"Coffe found at index {index}");
+                Console.WriteLine($"Found {search} at index {index}");
             }
             else
             {
                 Console.WriteLine("Not found");
             }
+
+            Console.ReadLine();
 
             /*int index = -1;
 
@@ -70,7 +74,7 @@ namespace EXCERCISE25_OUT_PARAMETER
 
         static void test(out int num)
         {
-            //num = 5;
+            //num = 5;  
             //Console.WriteLine($"num = {num}");
             num = 5;
         }
