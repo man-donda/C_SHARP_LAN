@@ -21,32 +21,47 @@ namespace EXCERCISE28_SUM_OF_INT_ARRAY
     {
         static void Main(string[] args)
         {
-            int[] numbers = new int[0];
-
-            int result = sumOfNumbers(numbers);
-
-            if (result > -1)
+            int[] numbers = new int[]
             {
-                Console.WriteLine($"The total is {result}");
+                0, 1, 2, 3, 4, 5
+            };
+
+            //int result = sumOfNumbers(numbers);
+
+            //if (result > -1)
+            //{
+            //    Console.WriteLine($"The total is {result}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Cannot add up an empty Array!");
+            //}
+
+            if (sumOfNumbers(numbers, out int sum))
+            {
+                Console.WriteLine($"The total is {sum}");
             }
             else
             {
                 Console.WriteLine("Cannot add up an empty Array!");
-            }            
+            }
+
+            Console.ReadLine();
         }
 
-        static int sumOfNumbers(int[] numbers)
+        static bool sumOfNumbers(int[] numbers, out int sum)
         {
+            sum = 0;
+
             if(numbers.Length > 0)
             {
-                int sum = 0;
                 for (int i = 0; i < numbers.Length; i++)
                 {
                     sum += numbers[i];
                 }
-                return sum;
+                return true;
             }
-            return -1;
+            return false;
         }
     }
 }
