@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EXCERCISE35_CLASS_FIELDS
+namespace EXCERCISE36_CLASS_VARIABLE_FUNCTION_SCOPE
 {
     internal class Program
     {
@@ -12,32 +12,35 @@ namespace EXCERCISE35_CLASS_FIELDS
         {
             private string name;
             private int age;
+            private string test = "Hello";
 
             public Person(string name, int age)
             {
-                this.name = name;
-                this.age = age;
+                Console.WriteLine(name);
+                Console.WriteLine(this.name);   
+                string test = "hi"; 
+                Console.WriteLine(test);
             }
-                        
+
             public void setName(string name)
             {
-             /*   if (!string.IsNullOrEmpty(name))
-                {
-                    this.name = name;
-                }
-                else
-                {
-                    this.name = "Invalid name";
-                }*/
+                /*   if (!string.IsNullOrEmpty(name))
+                   {
+                       this.name = name;
+                   }
+                   else
+                   {
+                       this.name = "Invalid name";
+                   }*/
 
                 this.name = !string.IsNullOrEmpty(name) ? name : "Invalid name";
             }
-                        
+
             public string getName()
             {
                 return name;
             }
-                        
+
             public void setAge(int age)
             {
                 /*
@@ -52,46 +55,23 @@ namespace EXCERCISE35_CLASS_FIELDS
                 */
                 this.age = age >= 0 && age <= 150 ? age : -1;
             }
-                        
+
             public int getAge()
             {
                 return age;
             }
-            
-            /*
-            public string setName(string name) => this.name = !string.IsNullOrEmpty(name) ? name : "Invalid name";
-
-            public string getName() => name;
-
-            public void setAge(int age) => this.age = age >= 0 && age <= 150 ? age : -1;
-
-            public int getAge() => age;
-            */
-
             public string returnDetails()
             {
+                string test = "";
                 return $"Name: {name} \nAge: {age}";
             }
         }
         static void Main(string[] args)
         {
+            Console.Title = "Class Variable/Function scope";
+
             Person person = new Person("Aba", 23);
             Console.WriteLine(person.returnDetails());
-
-            //person.name = null;
-            //if (person.name.Equals("Aba"))
-            //{
-
-            //}
-
-            //person.name = "Harry";
-            //person.age = 23;
-
-            person.setName("Harry");
-            person.setAge(23);
-            Console.WriteLine(person.returnDetails());
-
-            Console.WriteLine($"Your name is {person.getName()} and age is {person.getAge()}");
 
             Console.ReadLine();
         }
