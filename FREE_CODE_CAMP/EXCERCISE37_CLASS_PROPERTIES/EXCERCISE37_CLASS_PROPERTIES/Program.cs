@@ -8,9 +8,13 @@ namespace EXCERCISE37_CLASS_PROPERTIES
 {
     class Person
     {
-        private string name;
-        private int age;
+        public string Name { get; set; }
+        public int Age { get; set; }
 
+        //public string Name { get => name; set => name = value; }
+        //public int Age { get => age; set => age = value; }
+
+        /*
         public string Name
         {
             get
@@ -19,22 +23,44 @@ namespace EXCERCISE37_CLASS_PROPERTIES
             }
             set
             {
-                name = value;
+                name = !string.IsNullOrEmpty(value) ? value : "Invalid name";
             }
         }
-        public int Age;
 
-        Person(string name, int age)
+        public int Age
         {
-            this.name = name;
-            this.age = age;
-            Name = name;
+            get
+            {
+                return age; 
+            }
+            set
+            {
+               age = value >= 0 && value <= 150 ? value : -1;
+            }
+        }*/
+        
+        /*
+        public string name
+        {
+            get => name;
+            set => name = !string.IsNullOrEmpty(name) ? name : "Invalid name";
         }
 
+        public int age
+        {
+            get => age;
+            set => age = value >= 0 && value <= 150 ? value : -1;
+        }*/
+                
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
 
         public string returnDetails()
         {
-            return $"Name: {name} \nAge: {age}";
+            return $"Name: {Name} \nAge: {Age}";
         }
         internal class Program
         {
@@ -44,11 +70,13 @@ namespace EXCERCISE37_CLASS_PROPERTIES
                 Console.WriteLine(person.returnDetails());
 
                 person.Name = "Harry";
+                person.Age = 25;
 
-                Console.WriteLine(person.returnDetails());
+                //Console.WriteLine(person.returnDetails());
 
-                Console.WriteLine($"Your name is {person.Name}");
+                Console.WriteLine($"Your name is {person.Name} and age is {person.Age}");
 
+                Console.ReadLine();
             }
         }
     }
